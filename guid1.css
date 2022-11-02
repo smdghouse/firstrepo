@@ -1,0 +1,93 @@
+*{
+    margin: 0%;padding: 0%;box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.web-header
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(57deg,#29eaec,#24aeb8);
+    clip-path: polygon(0% 0%,100% 0%,100% 75%,0% 100%);
+}
+nav
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.logo
+{
+    width: 50%;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu
+{
+    width: 50%;
+    height: 100px;
+}
+.menu ul{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li
+{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-div
+{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+}
+.left-div img{
+    width: 600px;
+    height: 480px;
+    
+}
+.right-div
+{
+    width: 55%;
+    height: 500px;
+    text-align: center;
+    padding: 40px;
+}
+.right-div h1
+{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.right-div p{
+    font-size: 30px;
+    padding:30px 0px;
+    text-transform: uppercase;
+
+}
+.right-div button
+{
+    padding: 25px;
+    font-size: 20px;
+    background: #24aeb8;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    text-transform: uppercase;
+}
